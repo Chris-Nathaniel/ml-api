@@ -1,0 +1,5 @@
+#Build docker
+docker build -t ml-api .
+
+# run docker
+docker run -p 8000:8000 ml-api
